@@ -6,7 +6,7 @@ open class Vehiculo (val marca: String, val modelo: String, val capacidadCombust
     }
 
     open fun calcularAutonomia(): Int{
-        val autonomia = capacidadCombustible / 10
+        var autonomia = capacidadCombustible / 10
         return autonomia
     }
 }
